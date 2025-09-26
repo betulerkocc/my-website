@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600&display=swap');
+
+:root{
+    --main-color: #000066;
+    --black-color:#000000;
+    --border : 0.1rem solid rgba(255,255,255,0.4);
+
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border : none;
+    text-transform: capitalize;
+    transition: 0.2s ease; 
+}
+
+/* base html codes*/
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem ; 
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--main-color);
+    height: 150vh;
+}
+
+section {
+    padding: 3.5rem 7%;
+}
+
+/*! header start */
+.header .logo img{
+    height: 10rem;
+}
+.header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+    margin: 2rem 7%;
+    border-radius: 30rem;
+    position: sticky; /* header sayfayla birlikte gelir*/
+    top: 0;
+    z-index: 1000;
+}
+
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: var(--black-color);
+    border-bottom: 0.1rem solid transparent;
+}
+
+.header .navbar a{
+    border-color: var(--main-color); 
+    padding-bottom: 0.5rem;
+}
+
+/*! header end */
+/* hakkimda start */
+.home {
+    min-height: 100vh;
+    background: url(../images/background.jpg);
+    margin-top: -14.5rem;
+    display: flex;
+    align-items: center;
+    padding: 6rem;
+
+}
+
+.home .content {
+    max-width: 60rem;
+    position: relative;
+}
+
+.home .content h3{
+    font-size: 4rem;
+    font-weight: bolder;
+    line-height: 1.3;
+    color: white; 
+    padding-left: 30rem; 
+}
+
+.home .content p{
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.8;
+    padding: 3rem 4rem;
+    border-radius: 8rem;
+    color: white;
+    background-color:  #0a0a26;
+
+}
+
+.home2 .content {
+    max-width: 60rem;
+    position: relative;
+}
+
+.home2 .content h3{
+    font-size: 4rem;
+    font-weight: bolder;
+    line-height: 1.3;
+    color: white; 
+    padding-left: 30rem; 
+}
+
+.home2 .content p{
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.8;
+    padding: 3rem 4rem;
+    border-radius: 8rem;
+    color: white;
+    background-color:  #0a0a26
+
+
+}
+
+
+/* hakkimda end */
+
+/*contact start*/
+
+
+/*contact end*/
+
+.logo img{
+        height: 7rem;
+}
